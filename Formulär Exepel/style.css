@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(175, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+    ". header ."
+    ". form ."
+    ". p . "
+    
+    ;
+
+    padding: 8px;
+
+}
+
+header{
+    grid-area: header;
+    text-align: center;
+}
+
+form{
+    grid-area: form;
+    margin: auto;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 1em;
+    padding: 1em;
+
+}
+
+input{
+    border-radius: 10px;
+    font-size: 100%;
+}
+
+p{
+    font-size: 100px;
+    text-align: center;
+    grid-area: p;
+
+}
+
+
+@media screen and (max-width:800px){
+
+ }

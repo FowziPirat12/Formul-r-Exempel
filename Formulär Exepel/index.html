@@ -2,31 +2,46 @@
 <html lang="sv">
   <head>
     <title>Formulär Exempel</title>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=devise-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">    
-    <link href="tack.html" rel="tack"> 
+    
   </head>
   <body>
-    <h1>Formulär</h1>
+    <header>
+      <h1>Formulär</h1>
+    </header>
+    
 
+  <form action="tack.html">
     <label for="fname">Förnamn:</label><br>
-    <input type="text" id="fnamn" namn="fnamn"><br>
+    <input type="text" id="fnamn" name="fnamn"><br>
 
     <label for="fname">Efternamn:</label><br>
-    <input type="text" id="fnamn" namn="fnamn"><br><br>
+    <input type="text" id="fnamn" name="fnamn"><br><br>
 
     <label for="fname">E-postaddres:</label><br>
-    <input type="text" id="fnamn" namn="fnamn"><br><br>
+    <input type="text" id="fnamn" name="fnamn"><br><br>
 
     <label for="fname">Kön:</label><br>
-    <input type="checkbox" id="fkön" namn="fkön">
+    <input type="checkbox" id="fkön" name="fkön">
     <label for="Kille">Kille</label><br>
 
-    <input type="checkbox" id="fkön" namn="fkön">
+    <input type="checkbox" id="fkön" name="fkön">
     <label for="Tjej">Tjej</label><br><br>
-        
-    <input value="Skicka" type="Submit" />
 
+    <label for="fname">Välj din favorite bil:</label><br>
+    <input type="radio" id="Ferrari" name="bil" value="Ferrari">
+    <label for="Ferrari">Ferrari</label><br>
+
+    <input type="radio" id="Porshe" name="bil" value="Porshe">
+    <label for="Porshe">Porshe</label><br>
+
+    <input type="radio" id="BMW" name="bil" value="BMW">
+    <label for="BMW">BMW</label><br>
     
+    <input value="Skicka" type="Submit" />
+  </form>
+
+
 </body>
 </html>
